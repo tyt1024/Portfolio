@@ -216,7 +216,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/bg1.jpg');
+	background-image: url('../images/DSC_4318.JPG');
 	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -237,15 +237,13 @@ body {
 }
 
 @media (max-width: 991px) {
-	#slide-1 {
+	/*#slide-1 {
 		background-position: -70% 0, 170% 0;
-	}
+	}*/
 }
 
 @media (max-width: 767px) {
-	#slide-1 {
-		background-image: none;
-	}
+	
 }
 
 	#home-row-1,
