@@ -1,3 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url(https://fonts.googleapis.com/css?family=Raleway|Titillium+Web);
+.aboutP{
+font-family: 'Raleway', sans-serif;	
+}
+.aboutT{
+font-family: 'Titillium Web', sans-serif;
+}
