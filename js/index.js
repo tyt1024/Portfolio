@@ -1,4 +1,3 @@
-$(".menuIcon").click(function(event) {
-  event.preventDefault();
-  $(".nav").toggleClass("list");
+$('.mob-nav').on('click', function() {
+  $('.nav').toggleClass('active');
 });

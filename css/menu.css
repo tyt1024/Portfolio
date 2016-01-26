@@ -1,90 +1,126 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 
-body {
-  margin: 0;
-  padding: 0;
+
+header {
+  background: #678392;
+  height: 70px;
 }
 
-.menuIcon {
-  background: #27bdb8;
-  display: block;
-  font-family: "Raleway";
-  color: #fff;
-  text-decoration: none;
-  padding: .75em;
-  font-size: 1.5em;
-  text-align: right;
+.logo {
+  float: left;
+  line-height: 50px;
+  margin-left:35px;
+  margin-top:10px;
 }
 
 .nav {
-  background: #27bdb8;
-  margin: 0;
-  padding-top:5px;
-  padding-bottom:5px;
-  text-align: center;
-  display: none;
-
-}
-.logo{
-	float:left;
-	margin-top:2px;	
-	margin-left:5px;
+  list-style-type: none;
+  float: right;
 }
 .nav li {
-  font-family: "Raleway";
-  font-weight: 700;
-  list-style: none;
-  color: white;
-  letter-spacing: .1em;
-  padding: 1em;
-  float:right;
+  display: inline-block;
+  margin-right: 40px;
+  line-height: 60px;
+  letter-spacing: .2em;
 }
-
 .nav a {
+  color: white;
   text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: ease;
 }
 
-.selected {
-  background: #06919a;
+.btn-2 {
+    letter-spacing: 1;
 }
 
-.list {
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 5px;
+  bottom: 1px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.btn-2:after,
+.btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  backface-visibility: hidden;
+  border-color: black;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+/*.nav a:hover {
+  text-decoration: underline;
+}*/
+
+.mob-nav {
+  width: 20px;
+  height: 50px;
+  display: none;
+  float: right;
+  margin: 15px;
+}
+.mob-nav .mob-nav-line {
+  width: 100%;
+  height: 3px;
+  margin-bottom: 3px;
+  background: #DFD5BB;
   display: block;
 }
 
-@media screen and (min-width: 480px) {
-
-  .nav {
-    font-size: 0;
-    background: #27bdb8;
-    padding: 0;
-	padding-bottom:5px;
-	padding-bottom:5px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
+@media (max-width: 600px) {
+  .mob-nav {
     display: block;
   }
 
-  .nav li {
-    font-family: "Raleway";
-    font-weight: 700;
-    color: #fff;
-    list-style: none;
-    display: inline-block;
-    font-size: 1rem;
-    letter-spacing: .1em;
-    padding: 1em;
-  }
-
-  .selected {
-    background: #06919a;
-  }
-  
-  .menuIcon {
+  .nav {
     display: none;
+    width: 100%;
+    margin-top: -30px;
   }
-  
+  .nav li {
+    width: 100%;
+      background: #DFD5BB;
+    text-align: center;
+    margin-right: 0;
+  }
+  .nav li a {
+    text-align: center;
+    top: 0px;
+    position: relative;
+    color: #6B8493;
+    width: 100%;
+    display: block;
+  }
+  .nav li a:hover {
+    background: white;
+    color:#E07363;
+
+  }
+}
+.active {
+  display: block;
 }
