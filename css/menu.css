@@ -41,9 +41,8 @@ header {
 .btn-2:hover,
 .btn-2:active {
   letter-spacing: 5px;
-  bottom: 1px;
-    border-width: 0 0 1px;
-    border-style: solid;
+  border-bottom: 1px dotted;
+    padding-bottom: 9px;
 }
 
 .btn-2:after,
