@@ -2,14 +2,15 @@
 
 header {
   background: #678392;
-  height: 70px;
+  height: 80px;
 }
 
 .logo {
   float: left;
   line-height: 50px;
   margin-left:35px;
-  margin-top:10px;
+margin-top:10px;
+
 }
 
 .nav {
@@ -20,6 +21,7 @@ header {
   display: inline-block;
   margin-right: 40px;
   line-height: 60px;
+  margin-top:5px;
   letter-spacing: .2em;
 }
 .nav a {
