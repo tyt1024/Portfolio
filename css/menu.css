@@ -90,6 +90,7 @@ margin-top:10px;
   margin-bottom: 3px;
   background: #DFD5BB;
   display: block;
+  margin-top:5px;
 }
 
 @media (max-width: 600px) {
