@@ -59,6 +59,8 @@ margin-right:10px;
 .break {
   display: none;
 }
+
+
 @media all and (max-width: 650px) {
   .image-container {
     margin: 30px;
