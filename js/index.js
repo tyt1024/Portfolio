@@ -1,7 +1,10 @@
 $('.mob-nav').on('click', function() {
   $('.nav').toggleClass('active');
 });
-
+ $(".nav").on("click", "li", function () {
+       $(".mob-nav").click();
+     
+ });
 
 var current = 1; //keeps track of the current div
 var height = $('.roles').height(); //the height of the roles div
