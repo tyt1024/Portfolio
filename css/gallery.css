@@ -21,11 +21,23 @@ h2 {
 }
 .image img {
   max-width: 150%;
+  margin-left:-30px;
 }
 .img1{
 margin-right:10px;
 }
 
+.img2 {
+  max-width: 150%;
+  margin-left:-30px;
+  margin-top:-70px;
+}
+
+.img3 {
+  max-width: 150%;
+  margin-left:-30px;
+  margin-top:-50px;
+}
 .caption {
   width: 240px;
   height: auto;
@@ -494,6 +506,54 @@ margin-right:10px;
   color: white;
 }
 .pop11 > span {
+  cursor: pointer;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: #cccccc;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+.imagetype1{
+	margin-left:auto;
+	margin-right:auto;
+	width:55%;
+	height:auto;	
+}
+
+
+/*<!--pop12 Fish-->*/
+.pop12 {
+	display:none;
+  position: fixed;
+  top: 10.3%;
+  left: 10.3%;
+  width: 80%;
+  height: auto;
+  background: #D2BDAC;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  outline: 10px solid rgba(0, 0, 0, 0.1);
+  z-index:1;
+}
+.pop12 > h1 {
+  padding: 10px 30px 5px 30px;
+  color: #2a3644;
+  font-size: 200%;
+}
+.pop12 > p {
+  padding-left: 30px;
+  font-size: 120%;
+  color: white;
+}
+.pop12 > span {
   cursor: pointer;
   position: absolute;
   top: 4%;

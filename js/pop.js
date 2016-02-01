@@ -111,3 +111,13 @@ $(".pop11 > span, .pop11").click(function (event) {
     event.stopPropagation();
     $(".pop11").fadeOut(300);
      });
+	 
+	 	 $("#reg12").click(function () {
+         $(".pop12").fadeIn(300);
+         //positionPopup();
+     });
+	  
+$(".pop12 > span, .pop12").click(function (event) {
+    event.stopPropagation();
+    $(".pop12").fadeOut(300);
+     });
