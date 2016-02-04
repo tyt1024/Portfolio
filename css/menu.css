@@ -1,7 +1,7 @@
 
 
 header {
-  background: #678392;
+  background: #BFEDE0;
   height: 80px;
     top: 0;
   z-index: 100;
@@ -32,7 +32,7 @@ margin-top:10px;
   margin-top:-1px;
 }
 .nav a {
-  color: white;
+  color: #E76F5C;
   text-decoration: none;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -92,7 +92,7 @@ margin-top:10px;
   width: 100%;
   height: 3px;
   margin-bottom: 3px;
-  background: #DFD5BB;
+  background: #E76F5C;
   display: block;
   margin-top:5px;
 }
@@ -154,7 +154,7 @@ margin-right:auto;
   }
   .nav li {
     width: 100%;
-      background: #DFD5BB;
+      background: #6B8493;
     text-align: center;
     margin-right: 0;
   }
@@ -162,12 +162,12 @@ margin-right:auto;
     text-align: center;
     top: 0px;
     position: relative;
-    color: #6B8493;
+    color:white;
     width: 100%;
     display: block;
   }
   .nav li a:hover {
-    background: white;
+    background: #93E0CA;
     color:#E07363;
 
   }
