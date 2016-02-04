@@ -73,12 +73,12 @@ margin-right:10px;
 }
 /*<!--pop1 4 imm-->*/
 .pop {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -87,6 +87,7 @@ margin-right:10px;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop > h1 {
   padding: 10px 30px 5px 30px;
@@ -113,12 +114,12 @@ font-size: 120%;
 }
 /*<!--pop2 dance-->*/
 .pop2 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -127,6 +128,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop2 > h1 {
   padding: 10px 30px 5px 30px;
@@ -155,10 +157,10 @@ font-size: 120%;
 .pop3 {
 display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: 80%;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -167,7 +169,7 @@ display:none;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
-  overflow:scroll;
+  overflow-y:scroll;
 }
 .pop3 > h1 {
   padding: 10px 30px 5px 30px;
@@ -195,12 +197,12 @@ font-size: 120%;
 
 /*<!--pop4 diagknows-->*/
 .pop4 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -209,7 +211,9 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
+
 .pop4 > h1 {
   padding: 10px 30px 5px 30px;
   color: #2a3644;
@@ -236,12 +240,12 @@ font-size: 120%;
 
 /*<!--pop5 gental-->*/
 .pop5 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -250,6 +254,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop5 > h1 {
   padding: 10px 30px 5px 30px;
@@ -277,12 +282,12 @@ font-size: 120%;
 
 /*<!--pop6 early start-->*/
 .pop6 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -291,6 +296,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop6 > h1 {
   padding: 10px 30px 5px 30px;
@@ -318,12 +324,12 @@ font-size: 120%;
 
 /*<!--pop7 hair-->*/
 .pop7 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -332,6 +338,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop7 > h1 {
   padding: 10px 30px 5px 30px;
@@ -359,12 +366,12 @@ font-size: 120%;
 
 /*<!--pop8 magic-->*/
 .pop8 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: 80%;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -373,7 +380,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
-  overflow:scroll;
+  overflow-y:scroll;
 }
 .pop8 > h1 {
   padding: 10px 30px 5px 30px;
@@ -401,12 +408,12 @@ font-size: 120%;
 
 /*<!--pop9 summer-->*/
 .pop9 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -415,6 +422,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop9 > h1 {
   padding: 10px 30px 5px 30px;
@@ -442,12 +450,12 @@ font-size: 120%;
 
 /*<!--pop10 shampoo-->*/
 .pop10 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -456,6 +464,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop10 > h1 {
   padding: 10px 30px 5px 30px;
@@ -483,12 +492,12 @@ font-size: 120%;
 
 /*<!--pop11 coffee-->*/
 .pop11 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
-  height: auto;
+  height: 70%;
   background: #BEEDE0;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -497,6 +506,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop11 > h1 {
   padding: 10px 30px 5px 30px;
@@ -531,9 +541,9 @@ font-size: 120%;
 
 /*<!--pop12 Fish-->*/
 .pop12 {
-	display:none;
+display:none;
   position: fixed;
-  top: 10.3%;
+  top: 15.3%;
   left: 10.3%;
   width: 80%;
   height: auto;
@@ -545,6 +555,7 @@ font-size: 120%;
   border-radius: 6px;
   outline: 5px solid rgb(135, 214, 192);
   z-index:1;
+  overflow-y:scroll;
 }
 .pop12 > h1 {
   padding: 10px 30px 5px 30px;
