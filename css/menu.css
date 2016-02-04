@@ -180,17 +180,42 @@ text-align:center;
   }
   
   
-.face {
-margin:auto;
-clear:both;	
-text-align:center;
-display:block;
-float:none;
-padding-bottom:10px;
-margin-left:auto;
-margin-right:auto;
+.polaroid {
+	vertical-align: middle;
+  position: relative;
+  width: 80%;
+  display: inline-block;
+  float:none;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top:30px;
+	padding-bottom:25px;
+	padding-right:0;
 }
 
+.roles {
+    font-size: 25px;
+    height: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+	color:#E96E58;
+}
+
+.title{
+	vertical-align: middle;
+	display: inline-block;
+	float:none;
+	margin-top:40px;
+	margin-left:0;
+	
+}
+
+#work{
+max-width:100%;
+margin-left:auto;
+margin-right:auto;	
+}
 }
 .active {
   display: block;

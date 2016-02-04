@@ -61,6 +61,8 @@ font-family: 'Titillium Web', sans-serif;
 	vertical-align: middle;
 	display: inline-block;
 	float:left;
+	margin-top:40px;
+	margin-left:100px;
 	
 }
 /*#face{
@@ -80,7 +82,7 @@ font-family: 'Titillium Web', sans-serif;
 .polaroid {
 	vertical-align: middle;
   position: relative;
-  width: 420px;
+  width: 30%;
   display: inline-block;
   float:right;
 	margin-right:20px;
@@ -103,7 +105,7 @@ font-family: 'Titillium Web', sans-serif;
 }
  
 .wrapper {
-  width: 500px;
+  width: 100%;
   display: block;
   text-align: center;
   margin: 0 auto;
