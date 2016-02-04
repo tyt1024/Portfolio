@@ -141,6 +141,13 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
+
+.polaroid{
+	margin-left:auto;
+margin-right:auto;
+padding-right:80px;
+text-align:center;
+}
  }
 @media (max-width: 600px) {
   .mob-nav {

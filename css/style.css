@@ -63,7 +63,7 @@ font-family: 'Titillium Web', sans-serif;
 	float:left;
 	
 }
-#face{
+/*#face{
 	vertical-align: middle;
 	display: inline-block;
 	width:30%;
@@ -75,8 +75,33 @@ font-family: 'Titillium Web', sans-serif;
 	margin-bottom:20px;
 	padding-top:30px;
 	padding-bottom:25px;
+}*/
+
+.polaroid {
+	vertical-align: middle;
+  position: relative;
+  width: 420px;
+  display: inline-block;
+  float:right;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top:30px;
+	padding-bottom:25px;
+	padding-right:100px;
 }
 
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+		  width:100%;
+	height:auto;
+}
+ 
 .wrapper {
   width: 500px;
   display: block;
@@ -276,7 +301,7 @@ textarea:hover {
   margin-right:auto;
   text-align:center;
   padding-top:40px;
-  padding-bottom:40px;
+  padding-bottom:100px;
 }
 
 /* Icons */
